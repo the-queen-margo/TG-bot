@@ -46,27 +46,27 @@ export const Form =()=>{
           },[country,city])
     
     return(
-        <>
+      <>
          
-        <h3>Введите ваши данные:</h3>
-        <input
-        className='input'
-        type = 'text'
-        placeholder='Город'
-        value={city}
-        onChange= {onChangeCity}
-        />
-        <input 
-        className='input'
-        type = 'text'
-        placeholder='Дом'
-        value= {subject}
-        onChange= {onChangeSubject}
-         />
-         <select value={subject} onChange={onChangeSubject} className='select'>
-            <option value={'legal'}>Физ.Лицо</option>
-            <option value={'legal'}>Юрю.Лицо</option>
-         </select>
-         </>
+      <h3>Введите ваши данные:</h3>
+      <input
+      className='input'
+      type = 'text'
+      placeholder='Город'
+      value={city}
+      onChange= {onChangeCity}
+      />
+      <input 
+      className='input'
+      type = 'text'
+      placeholder='Страна'
+      value= {country}
+      onChange= {onChangeCountry}
+       />
+       <select value={subject} onChange={onChangeSubject} className='select'>
+          <option value={'legal'}>Физ.Лицо</option>
+          <option value={'legal'}>Юрю.Лицо</option>
+       </select>
+       </>
     )
 }
