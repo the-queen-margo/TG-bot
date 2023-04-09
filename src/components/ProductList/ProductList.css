@@ -1,0 +1,13 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.photo{
+    width:80px;
+}
