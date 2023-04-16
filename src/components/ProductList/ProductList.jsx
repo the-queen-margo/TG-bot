@@ -62,6 +62,7 @@ export const Productlist =()=>{
             tg.MainButton.setParams({
                 text:`Купить ${getTotalPrice(newItems)}`
             })
+            tg.onClose()
         }
 
     }

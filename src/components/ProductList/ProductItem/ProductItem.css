@@ -1,7 +1,7 @@
 .product {
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--tg-theme-button-color);
+  
     padding: 15px;
     width: 170px;
 
@@ -10,21 +10,24 @@
     width: 100%;
    background:lightgray ;
    height: 100px;
-   background: var(--tg-theme-button-color);
+  
 }
 .description {
-    font-size: 0.8em;
+    font-size: 0.7em;
+    color:rgb(172, 0, 0)
 }
 .add-btn {
     width: 150px;
     height: 50px;
+    background-color: rgba(0, 68, 255, 0.541);
 }
 .description{
     width: 300px;
 }
 .title{
     width: 300px;
+    color:rgba(7, 67, 75, 0.705)
 }
 .product{
-    background-color: grey;
+    background-color: rgb(121, 8, 8);
 }
